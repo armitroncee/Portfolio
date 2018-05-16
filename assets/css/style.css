@@ -1,0 +1,140 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px;
+}
+
+#bgContainer {
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    margin-left: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+#logo {
+    box-sizing: content-box;
+    background-color: #fafafa;
+    border-bottom: 2px solid gray;
+    padding: 30px 30px 40px;
+    min-height: 90px;
+}
+
+#name {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+#title {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 0;
+}
+
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-family: 'Great Vibes', cursive;
+    text-decoration: underline;
+}
+
+.page-title {
+    width: 100%;
+    background-color: #77C9D4;
+    padding: 30px;
+}
+
+.page-section {
+    margin-left: 30px;
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
+.blocktext {
+    color: #015249;
+    font-size: 40px;
+    border-left: 2px solid #015249;
+    font-weight: 700;
+}
+
+.about-me {
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: 20px;
+    color: grey;
+    margin-bottom: 50px;
+}
+
+.res-img {
+    margin: 0 auto;
+    max-height: 100px;
+    text-align: center;
+    display: table-cell;
+    padding-bottom: 10px;
+}
+
+.skill-title {
+    color: grey;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.pcard {
+    height: 420px;
+}
+
+.card-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #015249;
+    font-weight: 700;
+}
+
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+}
+
+.contact {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
