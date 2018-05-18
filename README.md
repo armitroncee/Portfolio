@@ -1,6 +1,7 @@
 # Portfolio
 
 My Portfolio
+See the deployed version at https://armitroncee.github.io/Portfolio/
 
 ## Built in 
 1. HTML
